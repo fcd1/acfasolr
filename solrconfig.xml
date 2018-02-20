@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <config>
+
+  <!--
+      BEGIN Stuff added by fcd1
+  -->
+
+  <!-- Controls what version of Lucene various components of Solr
+       adhere to.  Generally, you want to use the latest version to
+       get all bug fixes and improvements. It is highly recommended
+       that you fully re-index after changing this setting as it can
+       affect both how text is indexed and queried.
+  -->
+  <luceneMatchVersion>6.6.2</luceneMatchVersion>
+
+  <!--
+      END Stuff added by fcd1
+  -->
+
   <updateHandler class="solr.DirectUpdateHandler2" />
 
   <requestDispatcher handleSelect="true" >
