@@ -350,9 +350,6 @@
  <!-- LDPD, marquis - the ldpd_leh_9999_9999 document_id is unique to each record -->
  <uniqueKey required="true">id</uniqueKey>
 
- <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
- <solrQueryParser defaultOperator="OR"/>
-
   <!-- copyField commands copy one field to another at the time a document
         is added to the index.  It's used either to index the same field differently,
         or to add multiple fields to the same field for easier/faster searching.  -->
