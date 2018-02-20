@@ -350,9 +350,6 @@
  <!-- LDPD, marquis - the ldpd_leh_9999_9999 document_id is unique to each record -->
  <uniqueKey required="true">id</uniqueKey>
 
- <!-- field for the QueryParser to use when an explicit fieldname is absent -->
- <defaultSearchField>all_text</defaultSearchField>
-
  <!-- SolrQueryParser configuration: defaultOperator="AND|OR" -->
  <solrQueryParser defaultOperator="OR"/>
 
